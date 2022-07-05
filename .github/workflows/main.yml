@@ -1,7 +1,7 @@
 name: 'mypipeline'
 on:
   push:
-  pull-request:
+  
 jobs:
   test-job:
     runs-on: ubuntu-20.04
