@@ -3,16 +3,16 @@ on:
   push:
   
 jobs:
-  test-job:
+  myjob:
     runs-on: ubuntu-20.04
+    
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
-      name: 'setup node'
-      with:
-        node-version: '13.x'
-
-    - name: 'install'
-      run: npm i
+    
     - name: 'test'
       run: npm run test
+    - name: 'ng'
+      run: ng:build
+    - run: |
+        docker build 
