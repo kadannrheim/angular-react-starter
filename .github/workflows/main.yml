@@ -1,6 +1,6 @@
 name: 'mypipeline'
 on:
-  push: master
+  push:
   pull-request:
 jobs:
   test-job:
