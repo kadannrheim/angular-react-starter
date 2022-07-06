@@ -14,5 +14,4 @@ jobs:
       run: npm run test
     - name: 'ng'
       run: ng:build
-    - run: |
-        docker build 
+    - run: docker build 
