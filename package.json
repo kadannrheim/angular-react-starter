@@ -1,0 +1,19 @@
+{
+  "name": "@kadannrheim/angular-react-starter",
+  "version": "1.0.0",
+  "description": "<table> <tr> <td>   <a href=\"https://www.ganatan.com/en\">     <img src=\"./img/ganatan-about-github.png\" align=\"right\"     alt=\"Ganatan Angular Example Demo\" width=\"140\" height=\"140\">   </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadannrheim/angular-react-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadannrheim/angular-react-starter/issues"
+  },
+  "homepage": "https://github.com/kadannrheim/angular-react-starter#readme"
+}
