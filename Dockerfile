@@ -1,4 +1,5 @@
-FROM alpine:3.14
+#FROM alpine:3.14
+FROM nginx:1.23.1
 
 RUN apk add --no-cache --update \
     nginx \
